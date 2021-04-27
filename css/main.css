@@ -1,0 +1,100 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #eeeeee;
+    font-family: 'Questrial', sans-serif;
+}
+
+.todo-app {
+    width: 75%;
+}
+
+.todo-app h2 {
+    font-size: 6rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 9px;
+    margin: 1rem 0rem;
+    color: #e17055;
+    opacity: 0.6;
+}
+
+.todo-app .app {
+    background-color: #ffff;
+    width: 75%;
+    margin: auto;
+    box-shadow: 0px 0px 3px 2px #d6d6d6ee;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.todo-app .app .form {
+    margin: 1rem 0rem;
+}
+
+.todo-app .app .form input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 30px;
+    padding-left: 2rem;
+}
+
+.todo-app .app .form button {
+    border: none;
+    color: #8f8a8a;
+    font-size: 1rem;
+    outline: none;
+    background: #fff;
+    cursor: pointer;
+    float: right;
+    margin: 0rem 1rem;
+    margin-top: 2rem;
+}
+
+.todo-app .app .items {
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.todo-app .app .items .item {
+    padding: 1rem;
+}
+
+.todo-app .app .items .item .content {
+    font-size: 25px;
+    color: #000;
+}
+
+.todo-app .app .items .item button {
+    float: right;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    line-height: 2;
+    font-weight: 600
+}
+
+.todo-app .app .items .item .remove {
+    color: red
+}
+
+.todo-app .app .items .item .done {
+    color: green
+}
+
+.todo-app .app .items .completed .content {
+    text-decoration: line-through;
+    color: #a6a6a6;
+}

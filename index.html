@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Todos</title>
+</head>
+
+<body>
+    <section class="todo-app">
+        <h2>todos</h2>
+        <div class="app">
+            <div class="form">
+                <input placeholder="what needs to be done ?" onfocus="this.placeholder = ''" onblur="this.placeholder = 'what needs to be done ?'" class="typeNote" autocomplete="off" type="text">
+                <button class="addItem">Add</button>
+                <button style="float:left;" class="clearAll">Clear All</button>
+            </div>
+            <div class="items">
+            </div>
+        </div>
+    </section>
+    <!-- script files -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
